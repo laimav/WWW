@@ -1,0 +1,180 @@
+body {
+    background-color: gainsboro;
+    height: 1000px;
+    width: 1000px;
+}
+
+div {
+    height: 300px;
+    width: 300px;
+    border: solid 2px;
+    border-radius: 30px;
+    margin: 5px;
+    font: 15px Georgia, serif;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 300px auto;
+    background-position: center;
+}
+
+.text {
+    height: 25px;
+    width: 279px;
+    line-height: 25px;
+    color: black;
+    text-align: right;
+    padding-right: 20px;
+    background-color: lightblue;
+    position: relative;
+    top: 240px;
+    border-top: 1.5px solid skyblue;
+    border-bottom: 1.5px solid skyblue;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.hi {
+    font: bold italic 15px Georgia, serif;
+    color: black;
+    background: lightblue;
+    border-radius: 50px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+    left: 90px;
+    top: -20px;
+    border: 2px solid skyblue;
+}
+
+div .trikampis {
+    position: absolute;
+    top: 62px;
+    left: 110px;
+    width: 0;
+    height: 0;
+    border-radius: 0px;
+    border: 0;
+    border-top: 20px solid lightblue;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+.bubble {
+    font: bold italic 15px Georgia, serif;
+    background: lightblue;
+    border-radius: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 2px solid skyblue;
+}
+
+
+
+.cat1 {
+    background-image: url("cat1.jpg");
+    float: left;
+    position: relative;
+}
+
+.cat2 .text {
+    width: 279px;
+    position: relative;
+    top: 0px;
+    border-top-left-radius: 6.5px;
+    border-top-right-radius: 6.5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.cat2 {
+    background-image: url("cat2.jpg");
+    float: left;
+    position: relative;
+    background-position: bottom;
+}
+.cat2 .trikampis {
+    position: absolute;
+    top: 97px;
+    left: 100px;
+}
+
+.cat2 .bubble {
+    width: 130px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+ .cat3 .bubble {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+.cat3 .trikampis {
+    position: absolute;
+    top: 84px;
+    left: 125px;
+}
+.cat3 {
+    background-image: url("cat3.jpg");
+    float: left;
+    position: relative;
+    background-position: bottom;
+}
+
+.cat4 {
+    background-image: url("cat4.jpg");
+    clear: both;
+    float: left;
+    position: relative;
+    background-position: bottom;
+    top: 5px;
+}
+
+.cat4 .bubble {
+    width: 80px;
+    height: 50px;
+    padding-top: 10px;
+    line-height: 1.4em;
+    position: relative;
+    left: 185px;
+    top: 15px;
+}
+.cat4 .trikampis {
+    position: absolute;
+    top: 89px;
+    left: 217px;
+}
+
+.cat5 {
+    background-image: url("cat5.jpg");
+    float: left;
+    position: relative;
+    top: 5px;
+}
+
+
+.cat6 {
+    background-image: url("cat6.jpg");
+    float: left;
+    position: relative;
+    top: 5px;
+}
+.cat6 .text {
+    width: 279px;
+    position: relative;
+    bottom: 0px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    background-color: lightblue;
+    border-top: 1.5px solid skyblue;
+    border-bottom: 1.5px solid skyblue;
+    font-style: italic;
+ 
+}

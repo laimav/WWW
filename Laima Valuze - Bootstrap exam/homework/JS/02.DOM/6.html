@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="style-6.css" type="text/css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="btn_koment">
+        <input type="button" value="Komentaras" onclick="showForm()">
+    </div>
+
+
+    <div id="form">
+        <hr>
+        <form action="#">
+            <p>Vardas:</p>
+            <input type="text" name="Vardas" maxlength="30">
+
+            <p>Komentaras:</p>
+            <textarea name="komentaras" cols="50" rows="10"></textarea>
+            <br>
+            <input id="submit" type="submit" value="Pateikti" onclick="submitMessage()">
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>

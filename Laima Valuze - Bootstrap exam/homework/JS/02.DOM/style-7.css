@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#btn_koment, hr{
+margin-top: 10px;    
+margin-bottom: 10px;    
+}
+
+input, textarea, p{
+    margin-left: 10px;
+}
+
+p, #sum {
+        margin-top: 10px;
+}
+
+#form {
+    display: none;
+}

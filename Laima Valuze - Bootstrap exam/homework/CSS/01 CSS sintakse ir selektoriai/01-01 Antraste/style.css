@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*
+section {
+    margin: auto; 
+}
+*/
+
+header {
+    background-color: grey;
+    width: 600px
+}
+
+h1 {
+    color: white;
+}
+
+.section1 {
+    width: 700px;
+}
+
+.articleGrey {
+    background-color: #A9A9A9;
+    float: left;
+    width: 200px
+}
+
+.articleSilver {
+    background-color: silver;
+    float: left;
+    width: 200px
+}
+
+
+nav {
+    background-color: grey;
+    width: 600px;
+    clear: both;
+}
+
+.section2 {
+    width: 600px;
+    clear: both;
+}
+
+
+footer {
+    color: white;
+    background-color: grey;
+    width: 600px;
+    clear: both;
+}

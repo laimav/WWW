@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font: 12px "Lucida Sans Unicode", sans-serif;
+
+}
+
+.line {
+    background-color: skyblue;
+    width: 100%;
+    height: 50px;
+}
+
+.line p {
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 50px;
+}
+
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    height: 150px;
+    flex-basis: 200px;
+    /*width*/
+    flex-grow: 1;
+}
+
+.item1-1 {
+    background-color: lightgrey;
+}
+
+.item1-2 {
+    background-color: silver;
+}
+
+.item1-3 {
+    background-color: darkgray;
+}
+
+.item1-4 {
+    background-color: grey;
+}
+
+
+.item2-1 {
+    background-color: lightgray;
+}
+
+.item2-2 {
+    background-color: silver;
+}
+
+.item2-3 {
+    background-color: darkgrey;
+}

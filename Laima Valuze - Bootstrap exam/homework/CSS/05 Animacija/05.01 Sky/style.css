@@ -1,0 +1,17 @@
+img {
+    width: 500px;
+    height: auto;
+}
+
+p {
+ font: italic bold 20px Georgia, serif;
+    color: white;
+    text-shadow: 2px 2px darkgrey;
+}
+.citata {
+    width: 500px;
+    height: auto;
+    text-align: center;
+    position: relative;
+    top: -200px;
+}

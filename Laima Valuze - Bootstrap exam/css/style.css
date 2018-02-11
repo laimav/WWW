@@ -1,0 +1,93 @@
+﻿body {
+    padding-top: 50px;
+}
+
+/*1*/
+.banner {
+    background-image: url("../img/banner-bg.jpg");
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.buttonCaps {
+    color: white;
+    background-color: Transparent;
+    text-transform: uppercase;
+    border: 1px white solid;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.buttonCaps:hover {
+    background-color: #e43c5c;
+    color: white;
+}
+
+
+/*2.  Jumbotron: fono spalva #e43c5c, teksto balta.*/
+
+.second, .bottomWell {
+    background-color: #e43c5c;
+    color: white;
+    margin-bottom: 70px;
+}
+
+/*3. Linija: aukštis (3px), plotis (100px), spalva #e43c5c.*/
+
+.hr {
+    border-bottom: 3px solid #e43c5c;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+/*4.   Glyphicon (tik section dalyje, banner esančio neįtakoja), šrifto dydis, spalva #e43c5c. */
+
+.glyphicon-wrench, .glyphicon-cloud, .glyphicon-cog {
+    font-size: 30px;
+    color: #e43c5c;
+    float: left;
+    margin-top: 20px;
+}
+.withIcons {
+    margin-left: 45px;
+}
+
+/*5   */
+.bottomWell {
+    margin-top: 40px;
+}
+
+
+.bottom img {
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100px;
+}
+
+h4 {
+    font-weight: 500;
+}
+
+.text-white {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin: 40px;
+}
+
+
+.homeworkBody {
+    padding-top: 70px;
+}
+
+ .homework_h3 {
+padding-left: 60px; }

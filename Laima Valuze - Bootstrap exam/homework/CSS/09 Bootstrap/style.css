@@ -1,0 +1,30 @@
+img {
+    width: 100%;
+}
+
+body {
+    padding-top: 70px;
+}
+
+nav {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col-md-12 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer p{
+    margin: 0px;
+    color: dodgerblue;
+    font-size: 11px;
+}
+footer div{
+    border-right: 1px dashed gray;
+}
+
+footer div:last-child {
+    border-right: 0;
+}

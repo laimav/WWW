@@ -1,0 +1,98 @@
+.sumustekas {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    line-height: 0px;
+}
+
+.bandele-top {
+    width: 180px;
+    height: 40px;
+    margin: auto;
+    background-color: rgb(228, 176, 90);
+    border-radius: 15px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border: 1px solid rgb(208, 161, 73);
+    border-bottom: 6px solid rgb(208, 161, 73);
+}
+
+.suris {
+    background-color: rgb(239, 194, 30);
+    width: 198px;
+    height: 7px;
+    margin: auto;
+    border: 1px solid rgb(225, 175, 18);
+}
+
+.kecupas {
+    width: 160px;
+    height: 15px;
+    margin: auto;
+    background-color: rgb(219, 56, 15);
+}
+
+.svogunas {
+    width: 140px;
+    height: 1px;
+    margin: auto;
+    background-color: rgb(161, 54, 194);
+    border-bottom: 12px dotted rgb(176, 98, 199);
+}
+
+.mesa {
+    width: 40px;
+    height: 35px;
+    display: inline-block;
+    margin: auto;
+    background-color: rgb(115, 56, 12);
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+
+}
+
+.agurkelis {
+    width: 155px;
+    height: 20px;
+    margin: auto;
+    background-color: rgb(57, 199, 125);
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-bottom: 7px solid rgb(45, 152, 98);
+}
+
+.mesos-paplotelis {
+    width: 198px;
+    height: 20px;
+    margin: auto;
+    background-color: rgb(173, 54, 11);
+    border: 1px solid rgb(159, 47, 9);
+    border-radius: 8px;
+}
+.bandele-bottom {
+    width: 180px;
+    height: 20px;
+    margin: auto;
+    background-color: rgb(228, 176, 90);
+    border-radius: 15px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid rgb(208, 161, 73);
+    border-top: 5px solid rgb(208, 161, 73);
+}
+
+.lekste {
+    width: 250px;
+    height: 15px;
+    margin: auto;
+    background-color: grey;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+/*
+border-radius
+border-style
+box-shadow*/ ?????????

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Formos</title>
+</head>
+
+<body>
+    <main>
+        <fieldset style="width:600px">
+            <legend>Jūsų kontaktai:</legend>
+            <label>Vardas:                     
+            <input type="text" name="vardas:" maxlength="30" />
+            </label> <br><br>
+
+            <label>Pavardė:
+             <input type="text" name="pavardė:" maxlength="30" />
+            </label>
+        </fieldset>
+
+
+        <fieldset style="width:600px">
+            <legend>Jūsų atsiliepimai:</legend>
+            <label >Apie mus sužinojote iš: 
+            <select name="šaltiniai">
+                <option value="Google">Google</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Draugai">Draugai</option>
+            </select>  
+            
+             <p>Ar apsilankysite dar kartą? <br>
+             <input type="radio" name="ar apsilankysite" value="Taip"/>Taip                                  
+             <input type="radio" name="ar apsilankysite" value="Ne"/>Ne                                  
+             <input type="radio" name="ar apsilankysite" value="Galbūt"/>Galbūt
+             </p>                 
+                                                
+             <p>Komentaras</p>                                                     
+               <textarea name="comments" cols="40" rows="10"></textarea>
+            
+            <p>
+            <input type="checkbox" name="naujienlaiskis" value="Užsakyti naujienlaiškį"/>Užsakyti naujienlaiškį                                  
+            </p>
+            
+            <p>
+            <input type="submit" value="Pateikti atsakymą"/>
+            </p>
+       
+        </label>
+
+        </fieldset>
+
+
+
+    </main>
+
+</body>
+
+</html>

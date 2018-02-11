@@ -1,0 +1,15 @@
+* {
+    color: black;
+}
+
+section {
+    background-color: lightgrey;
+    width: 1000px;
+}
+
+.subSection {
+    background-color: lightgrey; 
+    float: left; 
+    width: 300px; 
+    margin: 5px;
+}

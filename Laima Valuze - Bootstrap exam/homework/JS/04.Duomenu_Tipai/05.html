@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>4.JS duomenų tipai</title>
+</head>
+
+<body>
+    <p>Pasirinkite slaptažodžio sudėtį:</p>
+    <p>ilgis: <input id="ilgis" type="text" name="passwordSize" value=""></p>
+    <p>Kokių simbolių norite: </p>
+
+    <input id="numbers" type="checkbox" name="numbers" value="numbers">0-9<br>
+
+    <input id="simboliai" type="checkbox" name="simboliai" value="simboliai">!, @, #, $<br>
+
+    <input id="raides" type="checkbox" name="raides" value="raides">a-z, A-Z<br>
+
+    <p>žodis slaptažodyje: <input id="zodis" type="text" name="passwordWord" value=""></p>
+
+
+
+
+    <input type="button" value="generuoti slaptažodį" onclick="generate()">
+    <input type="text" id="slaptazodis" value="">
+
+
+    <script src="05_script.js"></script>
+
+    <!--
+Vartotojui leisti pasirinkti iš kokių ir kiek
+simbolių sugeneruoti slaptažodį:
+• 0-9;
+• !, @, #, $
+• a-z, A-Z
+• Papildyti įvesties lauku. Leisti įvesti žodį, iš
+kurio būtų generuojamas slaptažodis.
+-->
+
+</body>
+
+</html>

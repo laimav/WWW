@@ -1,0 +1,41 @@
+/*
+p {
+    width: 30%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+    padding: 15px;
+    text-align: center;
+
+    border: solid transparent 5em;
+    border-image: url(flower-border-2.jpg) 30 round;
+    border-image-slice: 100 100 fill;
+    border-image-repeat: round stretch;
+
+*/
+
+
+p {
+    width: 30%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+    padding: 15px;
+    text-align: center;
+
+    border: solid transparent 2em;
+    border-image: url(borderiukas.jpg) 30 round;
+    border-image-slice: 70 50 70 60 /*fill*/;
+    border-image-repeat: round stretch;
+
+/*
+    border-image-width: 15em;
+    
+    
+*/
+    
+
+
+}

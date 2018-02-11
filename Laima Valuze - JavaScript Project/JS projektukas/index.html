@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Recipes</title>
+</head>
+
+<body onload="alertOnLoad(); startTime()">
+    <nav class="topnav">
+        <a class="active" href="index.html"><i class="fa fa-home"></i></a>
+        <a href="#all" onclick="printAll()">Visi receptai</a>
+        <a href="#desertai" onclick="printAll()">Desertai</a>
+        <a href="#vegetarian" class="not" onmousemove="onMouseMove()">Vegetariški</a>
+        <a href="#meat" class="not" onmousemove="onMouseMove()">Mėsos patiekalai</a>
+        <a href="#time" id="laikas"></a>
+        <input id="search" class="not" onmousemove="onMouseMove()" type="text" placeholder="Paieška.." name="search" onfocus="this.placeholder = ''" onblur="value='Paieška..'">
+    </nav>
+
+    <main>
+
+        <div id="dienosReceptas" onmouseover="onMouseOver()" oncontextmenu="OnContextMenu()">
+            <h1 onclick="randomRecipe()">Dienos receptas!</h1>
+        </div>
+
+        <div id="recipeList"></div>
+        <div id="recipeHtml"></div>
+        <div id="ingredients">
+        </div>
+        <div id="gaminimas">
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <p>Laima Valužė JP172</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

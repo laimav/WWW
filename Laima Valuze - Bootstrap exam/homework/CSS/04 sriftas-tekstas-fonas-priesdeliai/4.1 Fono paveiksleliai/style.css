@@ -1,0 +1,10 @@
+p {
+    width: 1200px;
+    height: 1000px;
+    background-image: url(Pink_ribbon.svg), url(corner-border.png), url(background.jpg);
+    background-size: 100px, 300px, 150%;
+    background-position: right bottom, left top, left top;
+    background-color: antiquewhite, transparent, transparent;
+    background-repeat: no-repeat;
+
+}

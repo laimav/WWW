@@ -1,0 +1,37 @@
+.box_model {
+    background-color: skyblue;
+    width: 400px;
+    height: 250px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: orange;
+}
+
+.box_model > section {
+    /*box-sizing: content-box: */
+ 
+    margin-top: 15px; 
+    margin-left: 15px; 
+    
+    background-color: silver;
+    text-align: right;
+
+    width: 80px;
+    height: 200px;
+
+    /* Spalvos skaidrumas: */
+    color: rgba(255, 255, 255, 0.8);
+
+    /* Fono spalvos skaidrumas: opacity: 0.5 */
+    font-size: 1.2em;
+    line-height: 1.5;
+
+    /*vidine teksto paraste*/
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    /*    kai tekstas netelpa, atsiranda slankioji juosta*/
+    /*    overflow: auto;    */
+}

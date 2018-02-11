@@ -1,0 +1,54 @@
+div {
+    width: 100%;
+    margin: auto;
+}
+
+.dangus {
+    height: 300px;
+    background-color: lightskyblue;
+}
+
+.zole {
+    height: 250px;
+    background-color: limegreen;
+}
+
+.kelias {
+    height: 200px;
+    background-color: #505050;
+    border-top: 10px solid grey;
+}
+
+.punktyras {
+    height: 10px;
+    border-top: 10px dashed white;
+    position: relative;
+    bottom: 100px;
+}
+
+img {
+
+    width: 230px;
+    height: auto;
+    position: relative;
+    top: -30px;
+    left: 0px;
+
+    animation-name: drive;
+    animation-duration: 10s;
+    /*transition: 2s 2s ease-out;*/
+    animation-fill-mode: both;
+    animation-iteration-count: 1; /*kartojasi 3 kartus
+    kartojasi nuolat
+    animation-iteration-count: infinite;*/
+}
+
+@keyframes drive {
+
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(200em);
+    }
+}

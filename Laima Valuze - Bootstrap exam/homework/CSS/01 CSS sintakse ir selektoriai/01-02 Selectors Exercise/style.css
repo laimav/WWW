@@ -1,0 +1,57 @@
+/* 
+Style the HTML elements according to the following instructions. 
+WRITE ONLY CSS!
+*/
+
+/* Give the <body> element a background of lightgray*/
+
+body {
+    background-color: lightgray;
+}
+
+/* Make the <h1> element purple */
+
+h1 {
+    color: purple;
+}
+
+/* Make all <h2> and <h3> elements orange */
+
+h2,
+h3 {
+    color: orange;
+}
+
+/* Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px) */
+
+div p {
+    font-size: 25px;
+}
+
+/* Give everything with the class 'hello' a white background*/
+
+.hello {
+    background-color: whitesmoke;
+}
+
+/* Give the element with id 'special' a 2px solid blue border */
+
+#special {
+    border: 2px solid blue;
+}
+
+/* Make the <span> element in <p> element with id 'special2' a 2px solid red border*/
+
+#special2 span  {
+    border: 2px solid red;
+}
+
+/* Change the style of multilevel list in <div> element: first level of list darkblue, second - pupple */
+div > ul {
+    color: darkblue;
+}
+div ul ul {
+    color: purple;
+}
+
+

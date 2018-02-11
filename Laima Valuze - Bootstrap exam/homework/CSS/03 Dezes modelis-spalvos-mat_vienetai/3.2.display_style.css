@@ -1,0 +1,76 @@
+.display {
+    background-color: skyblue;
+    width: 300px;
+    height: 150px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: orange;
+}
+
+
+.display > section > p:hover {
+    background-color: darkgrey;
+    opacity: 0.6;
+}
+
+
+.display > section {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 50px;
+    box-sizing: border-box;
+    height: 25%;
+    width: 93%;
+/*    background-color: antiquewhite;*/
+    /* Spalvos skaidrumas: */
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.2em;
+}
+
+
+.display > section > p{
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    background-color: darkgrey;
+    width: 25%;
+    height: 100%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.dropdown {
+      display: none;
+}
+.display:hover .dropdown{
+       display: block;
+}
+
+
+.dropdown a {
+    display: block;
+    margin-left: 80px;
+    width: 65px;
+    background-color: darkgrey;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1em;
+    text-decoration: none;
+    padding: 3px 3px;
+    height: 27px;
+
+}
+.dropdown a:hover {
+    background-color: darkgrey;
+    opacity: 0.6;
+}
+
+
+.dropdown a:hover {
+    background-color: darkgrey;
+    opacity: 0.5;}
+
+
+    
+    
